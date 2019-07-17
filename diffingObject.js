@@ -24,9 +24,10 @@ Object1.forEach(fruitKey1 => {
             similiarKeys.push(fruitKey1 + " ");
         }
 
-        else
+        else if(fruitKey1 != fruitKey2)
         {
             differentKeys.push(fruitKey1);
+            differentKeys.push(fruitKey2);
         }
 
     });
