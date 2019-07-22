@@ -13,6 +13,25 @@ There is exactly one space between each word and no punctuation is used*/
 
 // Think of join and split as yin and yang to remember how to deal with them
 
+//Complete the solution so that it reverses all of the words within the string passed in.
+
+reverseWords("The greatest victory is that which requires no battle")
+// should return "battle no requires which that is victory greatest The"
+
+function reverseWords(str)
+{
+  newArray = [];
+
+  newArray = str.split(" ");
+  newArray.reverse();
+  str = newArray.join(" ");
+
+  console.log(str);
+}
+
+// Much simpler reverse word code posted above ^ 
+
+
 let reverseOdd = (str) => {
 
   let newStr = str.split(' ');
