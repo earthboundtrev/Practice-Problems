@@ -35,12 +35,9 @@ function reverseWords(str)
 let reverseOdd = (str) => {
 
   let newStr = str.split(' ');
-  // let newArray = [];
-  //console.log(newStr);
 
   let newArray = newStr.map(word => {
 
-    //return word;
    if(word.length%2 === 0)
    {
       return word;

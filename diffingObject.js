@@ -29,8 +29,6 @@ Object1.forEach(fruitKey1 => {
             console.log(fruitKey1);
             console.log("break between key 1 and 2 ----------------")
             console.log(fruitKey2);
-            //differentKeys.push(fruitKey1);
-            //differentKeys.push(fruitKey2);
         }
 
     });

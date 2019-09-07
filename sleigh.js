@@ -14,3 +14,8 @@ Sleigh.prototype.authenticate = function(name, password) {
    }
    
 };
+
+
+// This was praticularly easy to code because they give you exactly what
+// the strings are, and they expect you to check for these. Perhaps it can be
+// refactored with a filter function?
